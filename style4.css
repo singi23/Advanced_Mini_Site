@@ -1,0 +1,104 @@
+html {
+  background-image: url("../old-rough-and-grungy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding:40px; 
+}
+
+body {
+  font-family: "Questrial";
+  border: 2px solid gray;
+  background: rgb(255, 255, 255);
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+nav {
+  padding: 20px 0 20px 0;
+  margin-bottom: 35px;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+a {
+  margin-right: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none; 
+}
+
+nav a:hover {
+  background-color: #ffffff00;
+  color: #C49919;
+}
+
+section {
+  display: inline-block;
+  width: 40%;
+  padding: 0 0 0 50px; 
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-right: 1px solid gray;
+
+}
+
+aside {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  padding: 0 0 0 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+aside h2 {
+  font-size: 30px;
+}
+
+aside h3 {
+  font-size: 22px;
+}
+
+aside p {
+  font-size: 18px;
+}
+  
+#img3 {
+  max-width: 70%;
+  position: left;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+#img {
+  max-width: 100%;
+  position: center;
+  height: auto;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 20px;
+  margin: 0 25px 0 25px;
+}
+  
+#img-div {
+  text-align: center;
+  margin-top: 70px;
+}
+  
+#img-caption {
+  font-size: 12px;
+  font-weight: 100;
+  display: block; 
+  margin: 0 25px 0 25px;
+}
